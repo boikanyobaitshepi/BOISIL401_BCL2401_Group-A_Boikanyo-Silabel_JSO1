@@ -1,7 +1,7 @@
 function validateSyntax() {
-    let input = document.getElementById('petInput').value.trim();
+    let petInput = document.getElementById('petInput').value.trim();
     let regex = /^pet_\d+[a-zA -Z]+$/;
-    let isValid = regex.test(petinput);
+    let isValid = regex.test(petInput);
 
     // Validation logic goes here
 
